@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.wh.uilib.banner.Banner
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="160dp" />
+
+    <com.wh.uilib.slidemenu.MenuView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:column="5"
+        app:line="2">
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_market"
+            android:text="京东超市" />
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_world_buy"
+            android:text="全球购" />
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_clothes"
+            android:text="京东服饰" />
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_fresh"
+            android:text="京东生鲜" />
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_go_home"
+            android:text="京东到家" />
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_recharge"
+            android:text="充值缴费" />
+
+        <com.wh.uilib.slidemenu.TextImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_menu_fresh"
+            android:text="京东生鲜" />
+    </com.wh.uilib.slidemenu.MenuView>
+
+</LinearLayout>
